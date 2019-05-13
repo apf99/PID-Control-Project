@@ -6,11 +6,9 @@
 
 ##Overview
 
-The idea behind this project is to implement a PID controller as described in the lectures and to use it to control the steering of a simulated vehicle in order to allow it to successully drive a windy track.  This is achieved by tuning the controller's hyperparameters based upon using the vehicle's cross-track error (CTE) as an input.  We separately track the CTE, its derivative and its integral and use all three in determing a control output in order to minimize the colelctive error.
+The idea behind this project is to implement a PID controller as described in the lectures and to use it to control the steering of a simulated vehicle in order to allow it to successully drive a windy track.  This is achieved by tuning the controller's hyperparameters based upon using the vehicle's cross-track error (CTE) as an input.  We separately track the CTE, its derivative and its integral and use all three in determing a control output in order to minimize the collective error.
 
 Additionally, I implemented a PID controller to control the vehicles speed via throttle control because I noticed that the vehicle's ability to follow the centerline of the road tended to be a strong function of the vehicle's speed.  This controller noticeably improved the performance of the vehicle by allowing it to speed up on the easy parts of the track and slow down on the tricky parts.   
-
-![PID_t](VideoClips/PID_t.gif)
 
 
 
